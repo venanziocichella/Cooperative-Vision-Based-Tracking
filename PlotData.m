@@ -72,7 +72,7 @@ figure(5)
 plot(lambda.Time,norm,'color','red','LineWidth',2.5); hold on;
 axis([tinit tfin 0 10]);
 grid on;
-xlabel('Time [s]');
+xlabel('time [s]');
 ylabel('$\sum_{i=2}^n||\lambda_1(t)-\lambda_i(t)||$','Interpreter','Latex');
 
 
@@ -114,8 +114,8 @@ text(-250, -500  , 't = 180s', 'Color', 'k','Fontsize',34);
 text(20, -200  , 't = 300s', 'Color', 'k','Fontsize',34);
 text(-150, 350  , 't = 600s', 'Color', 'k','Fontsize',34);
 axis([XMIN XMAX YMIN YMAX]);
-xlabel('North [m]');
-ylabel('East [m]');
+xlabel('north [m]');
+ylabel('east [m]');
 grid on;
 
 
